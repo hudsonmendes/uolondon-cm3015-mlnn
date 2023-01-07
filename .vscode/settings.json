@@ -1,4 +1,6 @@
 {
     "python.formatting.provider": "black",
-    "python.analysis.typeCheckingMode": "off"
+    "python.formatting.blackArgs": ["--line-length", "80"],
+    "python.analysis.typeCheckingMode": "off",
+    "jupyter.debugJustMyCode": false,
 }
